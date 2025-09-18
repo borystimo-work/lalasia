@@ -33,7 +33,7 @@
   counter-reset: item;
 }
 .services__container > .header-block .header-block__title {
-  transform: translate(0%, 10%);
+  transform: translate(0%, 60%);
   opacity: 0;
 }
 .services__container > .header-block .header-block__title.--watcher-view {
@@ -42,7 +42,7 @@
   opacity: 1;
 }
 .services__container > .header-block .header-block__text {
-  transform: translate(0%, 10%);
+  transform: translate(0%, 60%);
   opacity: 0;
 }
 .services__container > .header-block .header-block__text.--watcher-view {

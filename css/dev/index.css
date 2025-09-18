@@ -55,7 +55,7 @@
 }
 .hero__container .header-block__title {
   position: relative;
-  transform: translate(0%, 10%);
+  transform: translate(0%, 30%);
   opacity: 0;
 }
 .hero__container .header-block__title.--watcher-view {
@@ -75,7 +75,7 @@
   bottom: 0;
 }
 .hero__container .header-block__text {
-  transform: translate(0%, 10%);
+  transform: translate(0%, 30%);
   opacity: 0;
 }
 .hero__container .header-block__text.--watcher-view {
@@ -145,7 +145,7 @@
 }
 
 .product__container .header-block__label {
-  transform: translate(0%, 50%);
+  transform: translate(0%, 70%);
   opacity: 0;
 }
 .product__container .header-block__label.--watcher-view {
@@ -154,7 +154,7 @@
   opacity: 1;
 }
 .product__container .header-block__title {
-  transform: translate(0%, 50%);
+  transform: translate(0%, 70%);
   opacity: 0;
 }
 .product__container .header-block__title.--watcher-view {
@@ -163,7 +163,7 @@
   opacity: 1;
 }
 .product__container .header-block__text {
-  transform: translate(0%, 30%);
+  transform: translate(0%, 60%);
   opacity: 0;
 }
 .product__container .header-block__text.--watcher-view {
@@ -259,7 +259,7 @@
 }
 
 .testimonials__container .header-block__label {
-  transform: translate(0%, 50%);
+  transform: translate(0%, 70%);
   opacity: 0;
 }
 .testimonials__container .header-block__label.--watcher-view {
@@ -268,7 +268,7 @@
   opacity: 1;
 }
 .testimonials__container .header-block__title {
-  transform: translate(0%, 50%);
+  transform: translate(0%, 70%);
   opacity: 0;
 }
 .testimonials__container .header-block__title.--watcher-view {
@@ -277,7 +277,7 @@
   opacity: 1;
 }
 .testimonials__container .header-block__text {
-  transform: translate(0%, 30%);
+  transform: translate(0%, 40%);
   opacity: 0;
 }
 .testimonials__container .header-block__text.--watcher-view {
