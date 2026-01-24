@@ -22,25 +22,25 @@
 }
 
 .about-us__container > .header-block .header-block__title {
-  transform: translate(0%, 60%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .about-us__container > .header-block .header-block__title.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .about-us__container > .header-block .header-block__text {
-  transform: translate(0%, 60%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .about-us__container > .header-block .header-block__text.--watcher-view {
   transition: transform 0.8s ease 0.2s, opacity 0.8s ease 0.2s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .about-us__video {
-  transform: translate(0%, 10%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
   aspect-ratio: 1240/550;
 }
@@ -49,7 +49,7 @@
 }
 .about-us__video.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .our-mission {
@@ -67,11 +67,11 @@
   opacity: 1;
 }
 .our-mission__products .infocard {
-  transform: translate(0%, 10%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .our-mission__products .infocard.--watcher-view {
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 
@@ -94,11 +94,11 @@
   grid-template-columns: repeat(3, 1fr);
 }
 .our-team__employees .employee {
-  transform: translate(0%, 10%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .our-team__employees .employee.--watcher-view {
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 @media (max-width: 61.99875em) {
@@ -121,7 +121,7 @@
   }
   .our-mission__products .infocard.--watcher-view {
     transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-    transform: translate(0%, 0%);
+    transform: translate(0, 0);
     opacity: 1;
   }
   .our-team__employees {
@@ -134,7 +134,7 @@
   }
   .our-team__employees .employee.--watcher-view {
     transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-    transform: translate(0%, 0%);
+    transform: translate(0, 0);
     opacity: 1;
   }
 }

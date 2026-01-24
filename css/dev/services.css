@@ -33,21 +33,21 @@
   counter-reset: item;
 }
 .services__container > .header-block .header-block__title {
-  transform: translate(0%, 60%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .services__container > .header-block .header-block__title.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .services__container > .header-block .header-block__text {
-  transform: translate(0%, 60%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .services__container > .header-block .header-block__text.--watcher-view {
   transition: transform 0.8s ease 0.2s, opacity 0.8s ease 0.2s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .services__picture {
@@ -79,12 +79,12 @@
   opacity: 1;
 }
 .portfolio .header-block__content {
-  transform: translate(0%, 10%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .portfolio .header-block__content.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .portfolio .header-block__link {

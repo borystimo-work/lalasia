@@ -20,13 +20,13 @@
 		<link rel="preload" href="./assets/fonts/EudoxusSans-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Oval Gold Mirror</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1758387264265"></script>
-		<script type="module" crossorigin="" src="./js/productpage.min.js?v=1758387264265"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1758387264265">
-		<link rel="stylesheet" crossorigin="" href="./css/productpage.min.css?v=1758387264265">
-		<link rel="stylesheet" crossorigin="" href="./css/your-space.min.css?v=1758387264265">
-		<link rel="stylesheet" crossorigin="" href="./css/headerblock.min.css?v=1758387264265">
-		<link rel="stylesheet" crossorigin="" href="./css/productitem.min.css?v=1758387264265">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1769289007533"></script>
+		<script type="module" crossorigin="" src="./js/productpage.min.js?v=1769289007533"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1769289007533">
+		<link rel="stylesheet" crossorigin="" href="./css/productpage.min.css?v=1769289007533">
+		<link rel="stylesheet" crossorigin="" href="./css/your-space.min.css?v=1769289007533">
+		<link rel="stylesheet" crossorigin="" href="./css/headerblock.min.css?v=1769289007533">
+		<link rel="stylesheet" crossorigin="" href="./css/productitem.min.css?v=1769289007533">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -75,18 +75,18 @@
 							<div class="menu__content"></div>
 						</nav>
 						<div class="header__actions">
-							<button class="header__button">
+							<button aria-label="cart button" class="header__button">
 								<svg class="header__button--cart">
 									<use xlink:href="./assets/img/spritemap.svg#sprite-cart"></use>
 								</svg>
 							</button>
-							<button class="header__button">
+							<button aria-label="user button" class="header__button">
 								<svg class="header__button--user">
 									<use xlink:href="./assets/img/spritemap.svg#sprite-user"></use>
 								</svg>
 							</button>
 						</div>
-						<button type="button" data-fls-menu="" class="icon-menu">
+						<button type="button" data-fls-menu="" aria-label="open menu" class="icon-menu">
 							<span></span>
 						</button>
 					</div>
@@ -96,10 +96,10 @@
 				<!-- ========================================================================================================= -->
 				<section data-fls-productpage="" class="page__productpage productpage">
 					<div class="productpage__container">
-						<article class="productpage__product detail-product">
+						<div class="productpage__product detail-product">
 							<div class="detail-product__picture">
 								<picture>
-									<img class="detail-product__image" alt="Image" src="./assets/img/product/oval-gold-mirror.webp">
+									<img loading="lazy" class="detail-product__image" alt="Image" src="./assets/img/product/oval-gold-mirror.webp">
 								</picture>
 							</div>
 							<div class="detail-product__body">
@@ -112,10 +112,10 @@
 								<div class="detail-product__color color-detail-product">
 									<div class="color-detail-product__title --lh130">Color</div>
 									<div class="color-detail-product__templates">
-										<button class="color-detail-product__template color-detail-product__template--black"></button>
-										<button class="color-detail-product__template color-detail-product__template--green"></button>
-										<button class="color-detail-product__template color-detail-product__template--yellow"></button>
-										<button class="color-detail-product__template color-detail-product__template--gray --active"></button>
+										<button aria-label="black" class="color-detail-product__template color-detail-product__template--black"></button>
+										<button aria-label="green" class="color-detail-product__template color-detail-product__template--green"></button>
+										<button aria-label="yellow" class="color-detail-product__template color-detail-product__template--yellow"></button>
+										<button aria-label="gray" class="color-detail-product__template color-detail-product__template--gray --active"></button>
 									</div>
 								</div>
 								<div class="detail-product__text">
@@ -130,21 +130,21 @@
 									<button data-fls-button="" class="detail-product__button button button--border">Add to Chart</button>
 								</div>
 							</div>
-						</article>
+						</div>
 						<div class="productpage__related-items related-items">
-							<h4 class="related-items__title --lh130">Related Items</h4>
+							<h3 class="related-items__title --lh130">Related Items</h3>
 							<div class="related-items__items">
 								<article data-fls-productitem="" class="productitem">
 									<a href="white-aesthetic-chair.html" class="productitem__picture">
 										<picture>
-											<img class="productitem__image" alt="Image" src="./assets/img/product/chair.webp">
+											<img loading="lazy" class="productitem__image" alt="Image" src="./assets/img/product/chair.webp">
 										</picture>
 									</a>
 									<div class="productitem__body">
 										<div class="productitem__label --lh130">Chair</div>
-										<h4 class="productitem__title --lh130">
+										<h2 class="productitem__title --lh130">
 											<a href="white-aesthetic-chair.html" class="productitem__title-link">White Aesthetic Chair</a>
-										</h4>
+										</h2>
 										<div class="productitem__description">
 											<p>Combination of wood and wool</p>
 										</div>
@@ -154,14 +154,14 @@
 								<article data-fls-productitem="" class="productitem">
 									<a href="wooden-dining-table.html" class="productitem__picture">
 										<picture>
-											<img class="productitem__image" alt="Image" src="./assets/img/product/wooden-dining-table.webp">
+											<img loading="lazy" class="productitem__image" alt="Image" src="./assets/img/product/wooden-dining-table.webp">
 										</picture>
 									</a>
 									<div class="productitem__body">
 										<div class="productitem__label --lh130">Cupboard</div>
-										<h4 class="productitem__title --lh130">
+										<h2 class="productitem__title --lh130">
 											<a href="wooden-dining-table.html" class="productitem__title-link">Wooden Cupboard 3 Row</a>
-										</h4>
+										</h2>
 										<div class="productitem__description">
 											<p>Combination of wood and wool</p>
 										</div>
@@ -171,14 +171,14 @@
 								<article data-fls-productitem="" class="productitem">
 									<a href="minimalist-lounge-chair.html" class="productitem__picture">
 										<picture>
-											<img class="productitem__image" alt="Image" src="./assets/img/product/minimalist-lounge-chair.webp">
+											<img loading="lazy" class="productitem__image" alt="Image" src="./assets/img/product/minimalist-lounge-chair.webp">
 										</picture>
 									</a>
 									<div class="productitem__body">
 										<div class="productitem__label --lh130">Chair</div>
-										<h4 class="productitem__title --lh130">
+										<h2 class="productitem__title --lh130">
 											<a href="minimalist-lounge-chair.html" class="productitem__title-link">Minimalist Lounge Chair</a>
-										</h4>
+										</h2>
 										<div class="productitem__description">
 											<p>Combination of wood and wool</p>
 										</div>

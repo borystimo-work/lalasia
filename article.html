@@ -20,17 +20,17 @@
 		<link rel="preload" href="./assets/fonts/EudoxusSans-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Lalasia Article</title>
-		<script type="module" crossorigin="" src="./js/article.min.js?v=1758387264271"></script>
+		<script type="module" crossorigin="" src="./js/article.min.js?v=1769289007542"></script>
 		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
 		<link rel="modulepreload" crossorigin="" href="./js/slider.min.js">
 		<link rel="modulepreload" crossorigin="" href="./js/watcher.min.js">
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1758387264271">
-		<link rel="stylesheet" crossorigin="" href="./css/slider.min.css?v=1758387264271">
-		<link rel="stylesheet" crossorigin="" href="./css/article.min.css?v=1758387264271">
-		<link rel="stylesheet" crossorigin="" href="./css/headerblock.min.css?v=1758387264271">
-		<link rel="stylesheet" crossorigin="" href="./css/headbutton.min.css?v=1758387264271">
-		<link rel="stylesheet" crossorigin="" href="./css/articleiteminner.min.css?v=1758387264271">
-		<link rel="stylesheet" crossorigin="" href="./css/articleitem.min.css?v=1758387264271">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1769289007542">
+		<link rel="stylesheet" crossorigin="" href="./css/slider.min.css?v=1769289007542">
+		<link rel="stylesheet" crossorigin="" href="./css/article.min.css?v=1769289007542">
+		<link rel="stylesheet" crossorigin="" href="./css/headerblock.min.css?v=1769289007542">
+		<link rel="stylesheet" crossorigin="" href="./css/headbutton.min.css?v=1769289007542">
+		<link rel="stylesheet" crossorigin="" href="./css/articleiteminner.min.css?v=1769289007542">
+		<link rel="stylesheet" crossorigin="" href="./css/articleitem.min.css?v=1769289007542">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -79,18 +79,18 @@
 							<div class="menu__content"></div>
 						</nav>
 						<div class="header__actions">
-							<button class="header__button">
+							<button aria-label="cart button" class="header__button">
 								<svg class="header__button--cart">
 									<use xlink:href="./assets/img/spritemap.svg#sprite-cart"></use>
 								</svg>
 							</button>
-							<button class="header__button">
+							<button aria-label="user button" class="header__button">
 								<svg class="header__button--user">
 									<use xlink:href="./assets/img/spritemap.svg#sprite-user"></use>
 								</svg>
 							</button>
 						</div>
-						<button type="button" data-fls-menu="" class="icon-menu">
+						<button type="button" data-fls-menu="" aria-label="open menu" class="icon-menu">
 							<span></span>
 						</button>
 					</div>
@@ -120,14 +120,14 @@
 											<picture>
 												<source media="(max-width: 600px)" srcset="./assets/img/article/bedroom-design01-600.webp" type="image/webp">
 												<source media="(max-width: 1200px)" srcset="./assets/img/article/bedroom-design01-1200.webp" type="image/webp">
-												<img class="articleitem__image" alt="Image" src="./assets/img/article/bedroom-design01.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/bedroom-design01.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Design Inspiration</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="bedroom-design.html" class="articleitem__title-link">Bedroom Design is the Most Personal Reflection of the Owner, Really?</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>
 													Is it true that the bedroom design is the most personal reflection of the owner? Many people believe that to be able to judge a person’s personality, it is enough to
@@ -137,7 +137,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/jenny.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/jenny.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Jenny Agnes</div>
@@ -153,19 +153,19 @@
 											<picture>
 												<source media="(max-width: 600px)" srcset="./assets/img/article/square-foot-600.webp" type="image/webp">
 												<source media="(max-width: 1200px)" srcset="./assets/img/article/square-foot-1200.webp" type="image/webp">
-												<img class="articleitem__image" alt="Image" src="./assets/img/article/square-foot.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/square-foot.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Tips and Trick</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="square-foot.html" class="articleitem__title-link">This 400-Square-Foot New York Apartment Is Maximized With Custom Millwork</a>
-											</h4>
+											</h2>
 											<div class="articleitem__info">
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/morgan-avatar.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/morgan-avatar.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Morgan Goldberg</div>
@@ -181,16 +181,16 @@
 											<picture>
 												<source media="(max-width: 600px)" srcset="./assets/img/article/non-monoton-article-600.webp" type="image/webp">
 												<source media="(max-width: 1200px)" srcset="./assets/img/article/non-monoton-article-1200.webp" type="image/webp">
-												<img class="articleitem__image" alt="Image" src="./assets/img/article/non-monoton-article.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/non-monoton-article.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Tips and Trick</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="dynamic-interior.html" class="articleitem__title-link">
 													Create a non-monotonous and dynamic interior atmosphere with these 9 variations of wall tiles
 												</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>
 													Quoted from The Healthy Home Economist, a study in 1932 stated that color doesn’t really have to be visible to have an effect The radiance of a
@@ -200,7 +200,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/juliana.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/juliana.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Juliana Athorn</div>
@@ -215,14 +215,14 @@
 										<a href="kitchen.html" class="articleitem__picture">
 											<picture>
 												<source media="(max-width: 600px)" srcset="./assets/img/article/kitchen01-600.webp" type="image/webp">
-												<img class="articleitem__image" alt="Image" src="./assets/img/article/kitchen01.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/kitchen01.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Color Guide</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="kitchen.html" class="articleitem__title-link">20+ Best Kitchen Paint Colors That Make Kitchen Spaces Look More Fun</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>
 													Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.
@@ -232,7 +232,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/filipus.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/filipus.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Filipus Pendi</div>
@@ -247,9 +247,9 @@
 							<div class="hero-article-pagination"></div>
 							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
 							<div class="hero-article__arrows">
-								<button type="button" class="arrow arrow--prev hero-article__arrow hero-article__arrow--prev 
+								<button type="button" aria-label="previous slide" class="arrow arrow--prev hero-article__arrow hero-article__arrow--prev 
 					--icon-next"></button>
-								<button type="button" class="arrow arrow--next hero-article__arrow hero-article__arrow--next 
+								<button type="button" aria-label="next slide" class="arrow arrow--next hero-article__arrow hero-article__arrow--next 
 					--icon-next"></button>
 							</div>
 						</div>
@@ -268,14 +268,14 @@
 									<picture>
 										<source media="(max-width: 600px)" srcset="./assets/img/article/bedroom-design01-600.webp" type="image/webp">
 										<source media="(max-width: 1200px)" srcset="./assets/img/article/bedroom-design01-1200.webp" type="image/webp">
-										<img class="articleitem__image" alt="Image" src="./assets/img/article/bedroom-design01.webp">
+										<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/bedroom-design01.webp">
 									</picture>
 								</a>
 								<div class="articleitem__body">
 									<div class="articleitem__label">Design Inspiration</div>
-									<h4 class="articleitem__title --lh130">
+									<h2 class="articleitem__title --lh130">
 										<a href="bedroom-design.html" class="articleitem__title-link">Bedroom Design is the Most Personal Reflection of the Owner, Really?</a>
-									</h4>
+									</h2>
 									<div class="articleitem__text">
 										<p>
 											Is it true that the bedroom design is the most personal reflection of the owner? Many people believe that to be able to judge a person’s personality, it is enough to
@@ -285,7 +285,7 @@
 										<div class="articleitem__author">
 											<div class="articleitem__icon">
 												<picture>
-													<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/jenny.webp">
+													<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/jenny.webp">
 												</picture>
 											</div>
 											<div class="articleitem__name --lh130">By Jenny Agnes</div>
@@ -299,16 +299,16 @@
 									<picture>
 										<source media="(max-width: 600px)" srcset="./assets/img/article/non-monoton-article-600.webp" type="image/webp">
 										<source media="(max-width: 1200px)" srcset="./assets/img/article/non-monoton-article-1200.webp" type="image/webp">
-										<img class="articleitem__image" alt="Image" src="./assets/img/article/non-monoton-article.webp">
+										<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/non-monoton-article.webp">
 									</picture>
 								</a>
 								<div class="articleitem__body">
 									<div class="articleitem__label">Tips and Trick</div>
-									<h4 class="articleitem__title --lh130">
+									<h2 class="articleitem__title --lh130">
 										<a href="dynamic-interior.html" class="articleitem__title-link">
 											Create a non-monotonous and dynamic interior atmosphere with these 9 variations of wall tiles
 										</a>
-									</h4>
+									</h2>
 									<div class="articleitem__text">
 										<p>
 											Quoted from The Healthy Home Economist, a study in 1932 stated that color doesn’t really have to be visible to have an effect The radiance of a
@@ -318,7 +318,7 @@
 										<div class="articleitem__author">
 											<div class="articleitem__icon">
 												<picture>
-													<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/juliana.webp">
+													<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/juliana.webp">
 												</picture>
 											</div>
 											<div class="articleitem__name --lh130">By Juliana Athorn</div>
@@ -350,14 +350,14 @@
 									<article data-fls-articleitem="" data-fls-watcher="" data-fls-watcher-once="" data-category="tips" class="articleitem">
 										<a href="terrace-decoration.html" class="articleitem__picture">
 											<picture>
-												<img class="articleitem__image" alt="Image" src="./assets/img/article/terrace-decoration.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/terrace-decoration.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Tips and Trick</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="terrace-decoration.html" class="articleitem__title-link">Beautiful and Functional Home Terrace Decoration</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>
 													Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.
@@ -367,7 +367,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/morgan-avatar.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/morgan-avatar.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Morgan Goldberg</div>
@@ -379,14 +379,14 @@
 									<article data-fls-articleitem="" data-fls-watcher="" data-fls-watcher-once="" data-category="tips" class="articleitem">
 										<a href="modern-minimalist.html" class="articleitem__picture">
 											<picture>
-												<img class="articleitem__image" alt="Image" src="./assets/img/article/minimalistic.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/minimalistic.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Design Tips</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="modern-minimalist.html" class="articleitem__title-link">Modern Minimalist Home Design: Aesthetics of Modern Home Interiors</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>
 													Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.
@@ -396,7 +396,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/rizal.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/rizal.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Rizal Ahmad</div>
@@ -408,14 +408,14 @@
 									<article data-fls-articleitem="" data-fls-watcher="" data-fls-watcher-once="" data-category="color" class="articleitem">
 										<a href="kitchen.html" class="articleitem__picture">
 											<picture>
-												<img class="articleitem__image" alt="Image" src="./assets/img/article/kitchen.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/kitchen.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Color Guide</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="kitchen.html" class="articleitem__title-link">20+ Best Kitchen Paint Colors That Make Kitchen Spaces Look More Fun</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>
 													Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.
@@ -425,7 +425,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/filipus.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/filipus.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Filipus Pendi</div>
@@ -437,16 +437,16 @@
 									<article data-fls-articleitem="" data-fls-watcher="" data-fls-watcher-once="" data-category="tips" class="articleitem">
 										<a href="dynamic-interior.html" class="articleitem__picture">
 											<picture>
-												<img class="articleitem__image" alt="Image" src="./assets/img/article/non-monoton.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/non-monoton.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Tips and Trick</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="dynamic-interior.html" class="articleitem__title-link">
 													Create a non-monotonous and dynamic interior atmosphere with these 9 variations of wall tiles
 												</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>
 													Quoted from The Healthy Home Economist, a study in 1932 stated that color doesn’t really have to be visible to have an effect The radiance of a
@@ -456,7 +456,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/jenny.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/jenny.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Jenny Agnes</div>
@@ -468,14 +468,14 @@
 									<article data-fls-articleitem="" data-fls-watcher="" data-fls-watcher-once="" data-category="tips" class="articleitem">
 										<a href="minimalistic-vibes.html" class="articleitem__picture">
 											<picture>
-												<img class="articleitem__image" alt="Image" src="./assets/img/articles/jerremy.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/articles/jerremy.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Tips and Trick</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="minimalistic-vibes.html" class="articleitem__title-link">6 ways to give your home minimalistic vibes</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .</p>
 											</div>
@@ -483,7 +483,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/articles/jerremy-icon.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/articles/jerremy-icon.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Jerremy Jean</div>
@@ -495,14 +495,14 @@
 									<article data-fls-articleitem="" data-fls-watcher="" data-fls-watcher-once="" data-category="design" class="articleitem">
 										<a href="cool-interiors.html" class="articleitem__picture">
 											<picture>
-												<img class="articleitem__image" alt="Image" src="./assets/img/articles/michaela.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/articles/michaela.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Design Inspiration</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="cool-interiors.html" class="articleitem__title-link">How to make your interiors cooler and more stylish</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .</p>
 											</div>
@@ -510,7 +510,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/articles/michaela-icon.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/articles/michaela-icon.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Michaela Augus</div>
@@ -522,14 +522,14 @@
 									<article data-fls-articleitem="" data-fls-watcher="" data-fls-watcher-once="" data-category="tips" class="articleitem">
 										<a href="your-space.html" class="articleitem__picture">
 											<picture>
-												<img class="articleitem__image" alt="Image" src="./assets/img/articles/kim.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/articles/kim.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Tips and Trick</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="your-space.html" class="articleitem__title-link">Elements to add character to your space</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .</p>
 											</div>
@@ -537,7 +537,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/articles/michaela-icon.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/articles/michaela-icon.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Kim Gurameh</div>
@@ -551,14 +551,14 @@
 											<picture>
 												<source media="(max-width: 600px)" srcset="./assets/img/article/bedroom-design01-600.webp" type="image/webp">
 												<source media="(max-width: 1200px)" srcset="./assets/img/article/bedroom-design01-1200.webp" type="image/webp">
-												<img class="articleitem__image" alt="Image" src="./assets/img/article/bedroom-design01.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/bedroom-design01.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Design Inspiration</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="bedroom-design.html" class="articleitem__title-link">Bedroom Design is the Most Personal Reflection of the Owner, Really?</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>
 													Is it true that the bedroom design is the most personal reflection of the owner? Many people believe that to be able to judge a person’s personality, it is enough to
@@ -568,7 +568,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/jenny.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/jenny.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Jenny Agnes</div>
@@ -582,14 +582,14 @@
 											<picture>
 												<source media="(max-width: 600px)" srcset="./assets/img/article/square-foot-600.webp" type="image/webp">
 												<source media="(max-width: 1200px)" srcset="./assets/img/article/square-foot-1200.webp" type="image/webp">
-												<img class="articleitem__image" alt="Image" src="./assets/img/article/square-foot.webp">
+												<img loading="lazy" class="articleitem__image" alt="Image" src="./assets/img/article/square-foot.webp">
 											</picture>
 										</a>
 										<div class="articleitem__body">
 											<div class="articleitem__label">Tips and Trick</div>
-											<h4 class="articleitem__title --lh130">
+											<h2 class="articleitem__title --lh130">
 												<a href="square-foot.html" class="articleitem__title-link">400-Square-Foot New York Apartment</a>
-											</h4>
+											</h2>
 											<div class="articleitem__text">
 												<p>
 													Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space
@@ -599,7 +599,7 @@
 												<div class="articleitem__author">
 													<div class="articleitem__icon">
 														<picture>
-															<img class="articleitem__icon-image" alt="Image" src="./assets/img/article/jenny.webp">
+															<img loading="lazy" class="articleitem__icon-image" alt="Image" src="./assets/img/article/jenny.webp">
 														</picture>
 													</div>
 													<div class="articleitem__name --lh130">By Jenny Agnes</div>
@@ -612,9 +612,9 @@
 										<a href="dinning-room.html" class="articleiteminner__link">
 											<div class="articleiteminner__body">
 												<div class="articleiteminner__label">Tips and Trick</div>
-												<h4 class="articleiteminner__title">
+												<h2 class="articleiteminner__title">
 													<span class="articleiteminner__title-link --lh130">Create Cozy Dinning Room Vibes</span>
-												</h4>
+												</h2>
 												<div class="articleiteminner__text">
 													<p>
 														Decorating with neutrals brings balance to the dining room. With eclectic decoration on the sides, Caruso Dining Table.
@@ -623,16 +623,16 @@
 												<span class="articleiteminner__readmore">Read More</span>
 											</div>
 											<picture>
-												<img class="articleiteminner__image" alt="Image" src="./assets/img/articles/cozy.webp">
+												<img loading="lazy" class="articleiteminner__image" alt="Image" src="./assets/img/articles/cozy.webp">
 											</picture>
 										</a>
 									</article>
 									<article data-fls-articleiteminner="" data-category="" class="articleiteminner">
 										<a href="bedroom.html" class="articleiteminner__link">
 											<div class="articleiteminner__body">
-												<h4 class="articleiteminner__title">
+												<h2 class="articleiteminner__title">
 													<span class="articleiteminner__title-link --lh130">Siska Kohl’s Bedroom</span>
-												</h4>
+												</h2>
 												<div class="articleiteminner__text">
 													<p>
 														We start renovating her bedroom with minimalist concept and using combination white and wooden material
@@ -641,16 +641,16 @@
 												<span class="articleiteminner__readmore">See Detail</span>
 											</div>
 											<picture>
-												<img class="articleiteminner__image" alt="Image" src="./assets/img/services/bedroom.webp">
+												<img loading="lazy" class="articleiteminner__image" alt="Image" src="./assets/img/services/bedroom.webp">
 											</picture>
 										</a>
 									</article>
 									<article data-fls-articleiteminner="" data-category="" class="articleiteminner">
 										<a href="living-room.html" class="articleiteminner__link">
 											<div class="articleiteminner__body">
-												<h4 class="articleiteminner__title">
+												<h2 class="articleiteminner__title">
 													<span class="articleiteminner__title-link --lh130">Jeruk Veldevana Living Room Design</span>
-												</h4>
+												</h2>
 												<div class="articleiteminner__text">
 													<p>
 														We start renovating her bedroom with minimalist concept and using combination white and wooden material
@@ -659,16 +659,16 @@
 												<span class="articleiteminner__readmore">Read More</span>
 											</div>
 											<picture>
-												<img class="articleiteminner__image" alt="Image" src="./assets/img/services/living.webp">
+												<img loading="lazy" class="articleiteminner__image" alt="Image" src="./assets/img/services/living.webp">
 											</picture>
 										</a>
 									</article>
 									<article data-fls-articleiteminner="" data-category="" class="articleiteminner">
 										<a href="co-working.html" class="articleiteminner__link">
 											<div class="articleiteminner__body">
-												<h4 class="articleiteminner__title">
+												<h2 class="articleiteminner__title">
 													<span class="articleiteminner__title-link --lh130">Cozy Co-working space</span>
-												</h4>
+												</h2>
 												<div class="articleiteminner__text">
 													<p>
 														We start renovating her bedroom with minimalist concept and using combination white and wooden material
@@ -677,7 +677,7 @@
 												<span class="articleiteminner__readmore">Read More</span>
 											</div>
 											<picture>
-												<img class="articleiteminner__image" alt="Image" src="./assets/img/services/working.webp">
+												<img loading="lazy" class="articleiteminner__image" alt="Image" src="./assets/img/services/working.webp">
 											</picture>
 										</a>
 									</article>
@@ -686,288 +686,6 @@
 								<div class="tabs__body"></div>
 								<div class="tabs__body"></div>
 								<div class="tabs__body"></div>
-								<!--
-<div class="tabs__body">
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"terrace-decoration.html",
-"image":"@img/article/terrace-decoration.jpg",
-"label":"Tips and Trick",
-"title":"Beautiful and Functional Home Terrace Decoration",
-"text":"Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.",
-"icon":"@img/article/morgan-avatar.png",
-"name":"By Morgan Goldberg",
-"date":"Friday, 1 April 2022",
-"time":"2022-04-01"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"modern-minimalist.html",
-"image":"@img/article/minimalistic.jpg",
-"label":"Design Tips",
-"title":"Modern Minimalist Home Design: Aesthetics of Modern Home Interiors",
-"text":"Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.",
-"icon":"@img/article/rizal.png",
-"name":"By Rizal Ahmad",
-"date":"Wednesday, 17 March 2022",
-"time":"2022-04-17"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"kitchen.html",
-"image":"@img/article/kitchen.jpg",
-"label":"Color Guide",
-"title":"20+ Best Kitchen Paint Colors That Make Kitchen Spaces Look More Fun",
-"text":"Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.",
-"icon":"@img/article/filipus.png",
-"name":"By Filipus Pendi",
-"date":"Saturday, 29 February 2022",
-"time":"2022-01-29"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"dynamic-interior.html",
-"image":"@img/article/non-monoton.jpg",
-"label":"Tips and Trick",
-"title":"Create a non-monotonous and dynamic interior atmosphere with these 9 variations of wall tiles",
-"text":"Quoted from The Healthy Home Economist, a study in 1932 stated that color doesn’t really have to be visible to have an effect The radiance of a",
-"icon":"@img/article/jenny.png",
-"name":"By Jenny Agnes",
-"date":"Tuesday, 17 May 2022",
-"time":"2022-05-17"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"minimalistic-vibes.html",
-"image":"@img/articles/jerremy.jpg",
-"label":"Tips and Trick",
-"title":"6 ways to give your home minimalistic vibes",
-"text":"Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .",
-"icon":"@img/articles/jerremy-icon.png",
-"name":"By Jerremy Jean",
-"date":"Friday, 1 April 2022",
-"time":"2022-04-01"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"cool-interiors.html",
-"image":"@img/articles/michaela.jpg",
-"label":"Design Inspiration",
-"title":"How to make your interiors cooler and more stylish",
-"text":"Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .",
-"icon":"@img/articles/michaela-icon.png",
-"name":"By Michaela Augus",
-"date":"Friday, 1 April 2022",
-"time":"2022-04-01"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"your-space.html",
-"image":"@img/articles/kim.jpg",
-"label":"Tips and Trick",
-"title":"Elements to add character to your space",
-"text":"Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .",
-"icon":"@img/articles/michaela-icon.png",
-"name":"By Kim Gurameh",
-"date":"Friday, 1 April 2022",
-"time":"2022-04-01"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"bedroom-design.html",
-"image":"@img/article/bedroom-design01.jpg",
-"label":"Design Inspiration",
-"title":"Bedroom Design is the Most Personal Reflection of the Owner, Really?",
-"text":"Is it true that the bedroom design is the most personal reflection of the owner? Many people believe that to be able to judge a person’s personality, it is enough to",
-"icon":"@img/article/jenny.png",
-"name":"By Jenny Agnes",
-"date":"Tuesday, 17 May 2022",
-"time":"2022-05-17"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"square-foot.html",
-"image":"@img/article/square-foot.jpg",
-"label":"Tips and Trick",
-"title":"400-Square-Foot New York Apartment",
-"text":"Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space",
-"icon":"@img/article/jenny.png",
-"name":"By Jenny Agnes",
-"date":"Tuesday, 17 May 2022",
-"time":"2022-05-17"
-}'>
-</include>
-<include src="@components/custom/articleiteminner/articleiteminner.html" locals='{
-"link":"dinning-room.html",
-"label":"Tips and Trick",
-"title":"Create Cozy Dinning Room Vibes",
-"text":"Decorating with neutrals brings balance to the dining room. With eclectic decoration on the sides, Caruso Dining Table.",
-"readMore":"Read More",
-"image":"@img/articles/cozy.jpg"
-}'>
-</include>
-<include src="@components/custom/articleiteminner/articleiteminner.html" locals='{
-"link":"bedroom.html",
-"label":"",
-"title":"Siska Kohl’s Bedroom",
-"text":"We start renovating her bedroom with minimalist concept and using combination white and wooden material",
-"readMore":"See Detail",
-"image":"@img/services/bedroom.jpg"
-}'>
-</include>
-<include src="@components/custom/articleiteminner/articleiteminner.html" locals='{
-"link":"living-room.html",
-"label":"",
-"title":"Jeruk Veldevana Living Room Design",
-"text":"We start renovating her bedroom with minimalist concept and using combination white and wooden material",
-"readMore":"Read More",
-"image":"@img/services/living.jpg"
-}'>
-</include>
-<include src="@components/custom/articleiteminner/articleiteminner.html" locals='{
-"link":"co-working.html",
-"label":"",
-"title":"Cozy Co-working space",
-"text":"We start renovating her bedroom with minimalist concept and using combination white and wooden material",
-"readMore":"Read More",
-"image":"@img/services/working.jpg"
-}'>
-</include>
-</div>
-<div class="tabs__body">
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"terrace-decoration.html",
-"image":"@img/article/terrace-decoration.jpg",
-"label":"Tips and Trick",
-"title":"Beautiful and Functional Home Terrace Decoration",
-"text":"Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.",
-"icon":"@img/article/morgan-avatar.png",
-"name":"By Morgan Goldberg",
-"date":"Friday, 1 April 2022",
-"time":"2022-04-01"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"dynamic-interior.html",
-"image":"@img/article/non-monoton.jpg",
-"label":"Tips and Trick",
-"title":"Create a non-monotonous and dynamic interior atmosphere with these 9 variations of wall tiles",
-"text":"Quoted from The Healthy Home Economist, a study in 1932 stated that color doesn’t really have to be visible to have an effect The radiance of a",
-"icon":"@img/article/jenny.png",
-"name":"By Jenny Agnes",
-"date":"Tuesday, 17 May 2022",
-"time":"2022-05-17"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"minimalistic-vibes.html",
-"image":"@img/articles/jerremy.jpg",
-"label":"Tips and Trick",
-"title":"6 ways to give your home minimalistic vibes",
-"text":"Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .",
-"icon":"@img/articles/jerremy-icon.png",
-"name":"By Jerremy Jean",
-"date":"Friday, 1 April 2022",
-"time":"2022-04-01"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"your-space.html",
-"image":"@img/articles/kim.jpg",
-"label":"Tips and Trick",
-"title":"Elements to add character to your space",
-"text":"Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .",
-"icon":"@img/articles/michaela-icon.png",
-"name":"By Kim Gurameh",
-"date":"Friday, 1 April 2022",
-"time":"2022-04-01"
-}'>
-</include>
-<include src="@components/custom/articleiteminner/articleiteminner.html" locals='{
-"link":"dinning-room.html",
-"label":"Tips and Trick",
-"title":"Create Cozy Dinning Room Vibes",
-"text":"Decorating with neutrals brings balance to the dining room. With eclectic decoration on the sides, Caruso Dining Table.",
-"readMore":"Read More",
-"image":"@img/articles/cozy.jpg"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"square-foot.html",
-"image":"@img/article/square-foot.jpg",
-"label":"Tips and Trick",
-"title":"400-Square-Foot New York Apartment",
-"text":"Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space",
-"icon":"@img/article/jenny.png",
-"name":"By Jenny Agnes",
-"date":"Tuesday, 17 May 2022",
-"time":"2022-05-17"
-}'>
-</include>
-</div>
-<div class="tabs__body">
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"modern-minimalist.html",
-"image":"@img/article/minimalistic.jpg",
-"label":"Design Tips",
-"title":"Modern Minimalist Home Design: Aesthetics of Modern Home Interiors",
-"text":"Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.",
-"icon":"@img/article/rizal.png",
-"name":"By Rizal Ahmad",
-"date":"Wednesday, 17 March 2022",
-"time":"2022-04-17"
-}'>
-</include>
-<include src="@components/custom/articleiteminner/articleiteminner.html" locals='{
-"link":"co-working.html",
-"label":"",
-"title":"Cozy Co-working space",
-"text":"We start renovating her bedroom with minimalist concept and using combination white and wooden material",
-"readMore":"Read More",
-"image":"@img/services/working.jpg"
-}'>
-</include>
-</div>
-<div class="tabs__body">
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"cool-interiors.html",
-"image":"@img/articles/michaela.jpg",
-"label":"Design Inspiration",
-"title":"How to make your interiors cooler and more stylish",
-"text":"Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .",
-"icon":"@img/articles/michaela-icon.png",
-"name":"By Michaela Augus",
-"date":"Friday, 1 April 2022",
-"time":"2022-04-01"
-}'>
-</include>
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"bedroom-design.html",
-"image":"@img/article/bedroom-design01.jpg",
-"label":"Design Inspiration",
-"title":"Bedroom Design is the Most Personal Reflection of the Owner, Really?",
-"text":"Is it true that the bedroom design is the most personal reflection of the owner? Many people believe that to be able to judge a person’s personality, it is enough to",
-"icon":"@img/article/jenny.png",
-"name":"By Jenny Agnes",
-"date":"Tuesday, 17 May 2022",
-"time":"2022-05-17"
-}'>
-</include>
-</div>
-<div class="tabs__body">
-<include src="@components/custom/articleitem/articleitem.html" locals='{
-"link":"kitchen.html",
-"image":"@img/article/kitchen.jpg",
-"label":"Color Guide",
-"title":"20+ Best Kitchen Paint Colors That Make Kitchen Spaces Look More Fun",
-"text":"Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.",
-"icon":"@img/article/filipus.png",
-"name":"By Filipus Pendi",
-"date":"Saturday, 29 February 2022",
-"time":"2022-01-29"
-}'>
-</include>
-</div>
--->
 							</div>
 						</div>
 						<button data-fls-button="" type="button" id="loadMore" class="trending-topics__button button button--border">Load
@@ -983,7 +701,7 @@
 			</main>
 			<aside data-fls-headbutton="" class="headbutton">
 				<div class="headbutton__container">
-					<h3 data-fls-watcher="" data-fls-watcher-once="" class="headbutton__title --lh130">Subscribe our newsletter</h3>
+					<h2 data-fls-watcher="" data-fls-watcher-once="" class="headbutton__title --lh130">Subscribe our newsletter</h2>
 					<a data-fls-button="" data-fls-watcher="" data-fls-watcher-once="" href="index.html" class="button button--arrow">
 						<span>Let’s Talk</span>
 						<svg class="arrow-right">

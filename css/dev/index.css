@@ -55,12 +55,12 @@
 }
 .hero__container .header-block__title {
   position: relative;
-  transform: translate(0%, 30%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .hero__container .header-block__title.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .hero__container .header-block__title--icon:before {
@@ -75,12 +75,12 @@
   bottom: 0;
 }
 .hero__container .header-block__text {
-  transform: translate(0%, 30%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .hero__container .header-block__text.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .hero__container .header-block__star--icon-sketch {
@@ -99,12 +99,12 @@
   z-index: 2;
   max-width: 50.625rem;
   margin-inline: auto;
-  transform: translate(0%, 50%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .hero .form.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .hero__picture {
@@ -120,12 +120,12 @@
   gap: 1.25rem;
 }
 .benefits__container .header-block__top {
-  transform: translate(-100%, 0%);
+  transform: translate(-100%, 0);
   opacity: 0;
 }
 .benefits__container .header-block__top.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .benefits__items {
@@ -135,51 +135,51 @@
   row-gap: 1.25rem;
 }
 .benefits__items .infocard {
-  transform: translate(0%, 10%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .benefits__items .infocard.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s, box-shadow 0.5s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 
 .product__container .header-block__label {
-  transform: translate(0%, 70%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .product__container .header-block__label.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .product__container .header-block__title {
-  transform: translate(0%, 70%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .product__container .header-block__title.--watcher-view {
   transition: transform 0.8s ease 0.2s, opacity 0.8s ease 0.2s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .product__container .header-block__text {
-  transform: translate(0%, 60%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .product__container .header-block__text.--watcher-view {
   transition: transform 0.8s ease 0.4s, opacity 0.8s ease 0.4s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .product__slider {
   position: relative;
   overflow: visible;
-  transform: translate(0%, 10%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .product__slider.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .product__wrapper {
@@ -211,12 +211,12 @@
 .our-product__column:nth-child(1) .our-product__picture {
   aspect-ratio: 595/260;
   overflow: hidden;
-  transform: translate(0%, 10%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .our-product__column:nth-child(1) .our-product__picture.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .our-product__column:nth-child(1) .our-product__image {
@@ -246,12 +246,12 @@
 .our-product__column:nth-child(2) .our-product__picture {
   aspect-ratio: 595/510;
   overflow: hidden;
-  transform: translate(0%, 10%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .our-product__column:nth-child(2) .our-product__picture.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .our-product__column:nth-child(2) .our-product__image {
@@ -259,42 +259,42 @@
 }
 
 .testimonials__container .header-block__label {
-  transform: translate(0%, 70%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .testimonials__container .header-block__label.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .testimonials__container .header-block__title {
-  transform: translate(0%, 70%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .testimonials__container .header-block__title.--watcher-view {
   transition: transform 0.8s ease 0.2s, opacity 0.8s ease 0.2s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .testimonials__container .header-block__text {
-  transform: translate(0%, 40%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .testimonials__container .header-block__text.--watcher-view {
   transition: transform 0.8s ease 0.4s, opacity 0.8s ease 0.4s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .testimonials__slider {
   overflow: visible;
   max-width: 34.0625rem;
   margin: 0 auto;
-  transform: translate(0%, 10%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .testimonials__slider.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .testimonials__slide {
@@ -316,21 +316,21 @@
   opacity: 1;
 }
 .articles__column:nth-child(2) .articleitem {
-  transform: translate(0%, 10%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .articles__column:nth-child(2) .articleitem.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .articles__slider {
-  transform: translate(0%, 10%);
+  transform: translate(0, 3.125rem);
   opacity: 0;
 }
 .articles__slider.--watcher-view {
   transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
-  transform: translate(0%, 0%);
+  transform: translate(0, 0);
   opacity: 1;
 }
 .articles__arrows {
